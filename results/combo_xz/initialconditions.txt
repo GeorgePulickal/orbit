@@ -1,0 +1,3 @@
+earth.velocity[0] = 11;
+earth.velocity[1] = 0;
+earth.velocity[2] = 2;

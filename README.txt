@@ -1,0 +1,6 @@
+I have found the action of an orbit after an impulse one that is difficult to understand and visualise. The new shape of the orbit is not intuitive to me when the impulse direction is not restricted to 1 dimension, so this programme was made to clarify this.
+The programme requires the programmer to hardcode initial conditions for the position and velocity of the orbiting satelite. The central force, mass of the satelite can also be changed in the programme.
+by implementind the leapfrog algorithm, we can determine the position and velocity of the satelite from the object the satelite is orbiting from which is at the origin. 
+2 datafiles are made, 1 pertaining to the orbit after the impulse is applied, and the other to the circular orbit, for comparison.
+the 'orbit.gnu' file uses these datafiles to produce 5 animated gifs: 2D orbit, 3D orbit, kinetic energy, potential energy, total energy. 
+as the speed of the animations are the same, we can play the gifs at the same time to visualise the energies at each point in the orbit.
